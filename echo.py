@@ -14,7 +14,7 @@ def response(body, status):
 
 def main():
     data = sys.stdin.readlines()
-    # this is a json string in one line so we are interested in that one line
+    # this is a json string in one line so we are interested in that one line, qq
     payload = data[0]
     
     request = json.loads(payload)
